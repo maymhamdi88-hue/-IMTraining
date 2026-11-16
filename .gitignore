@@ -1,0 +1,17 @@
+# Dependencies
+/vendor/
+
+# Environment files
+/env
+.env
+.env.*
+
+# CodeIgniter writable files
+/writable/*
+!/writable/.htaccess
+!/writable/index.html
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
